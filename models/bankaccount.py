@@ -9,7 +9,5 @@ class Bankaccount:
             return new_account
         return None
     
-        
-        
     def __str__(self):
         return f"BankAccount: Balance {self.balance:,.2f}"
